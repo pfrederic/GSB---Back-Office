@@ -1,0 +1,37 @@
+Pour libQtSql.so.4 :
+libqt4-dbg,
+libqt4-sql,
+
+Pour libQtGui.so.4 :
+libqtgui4,
+
+Pour libQtCore.so.4 :
+libqtcore4,
+
+Pour libpthread.so.0 :
+libc6,
+libc6-amd64,
+libc6-i686,
+libc6-xen,
+
+Pour libstdc++.so.6 :
+lib64stdc++6,
+lib64stdc++6-4.3-dbg,
+lib64stdc++6-4.4-dbg,
+libstdc++6,
+libstdc++6-4.3-dbg,
+libstdc++6-4.4-dbg,
+
+Pour libm.so.6 :
+libc6,
+libc6-amd64,
+libc6-i686,
+libc6-xen,
+
+Pour libgcc_s.so.1 :
+lib64gcc1,
+lib64gcc1-dbg,
+libgcc1,
+libgcc1-dbg,
+
+

@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="ajouter">Images/ajouter.png</file>
+        <file alias="editer">Images/editer.png</file>
+        <file alias="enregistrer">Images/enregistrer.png</file>
+        <file alias="logo">Images/logo.jpg</file>
+        <file alias="quitter">Images/quitter.gif</file>
+        <file alias="refuser">Images/refuser.png</file>
+        <file alias="supprimer">Images/supprimer.png</file>
+        <file alias="valider">Images/valider.png</file>
+    </qresource>
+</RCC>
