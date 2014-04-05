@@ -187,7 +187,6 @@ QString visiteur::getRadioButonHierarchieModification()
 QString visiteur::getCheckBoxChefVente()
 {
     qDebug()<<"visiteur::getCheckBoxChefVente()";
-    qDebug()<<"COUCOU";
     if(ui->checkBoxChefVente->isChecked() && this->chefVente==0)
     {
         qDebug()<<"CHEFVENTE";
@@ -198,6 +197,7 @@ QString visiteur::getCheckBoxChefVente()
         qDebug()<<"NONCHEFVENTE";
         return "NONCHEFVENTE";
     }
+    return "null";
 }
 
 void visiteur::setLineEditMatricule(QString pMatricule)

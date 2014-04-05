@@ -770,12 +770,22 @@ void MainWindow::on_pushButtonVisiteurEdit_clicked()
         modifierVisiteur.setValue("VIS_ADRESSE", fenetreVisiteur->getLineEditAdresse());
         modifierVisiteur.setValue("VIS_CP", fenetreVisiteur->getLineEditCP());
         modifierVisiteur.setValue("VIS_VILLE", fenetreVisiteur->getLineEditVille());
-        modifierVisiteur.setValue("VIS_DATEEMBAUCHE", QDate::currentDate());
-        modifierVisiteur.setValue("SEC_CODE", fenetreVisiteur->getComboBoxSecteur());
-        modifierVisiteur.setValue("LAB_CODE", fenetreVisiteur->getComboBoxLaboratoire());
-        modifierVisiteur.setValue("DEP_CODE", fenetreVisiteur->getComboBoxDepartement());
-        if(tableModelVisiteur->setRecord(ui->tableViewVisiteur->currentIndex().row(),modifierVisiteur))
+        if(fenetreVisiteur->getComboBoxSecteur()!="-1")
         {
+            modifierVisiteur.setValue("SEC_CODE", fenetreVisiteur->getComboBoxSecteur());
+        }
+        if(fenetreVisiteur->getComboBoxLaboratoire()!="-1")
+        {
+            modifierVisiteur.setValue("LAB_CODE", fenetreVisiteur->getComboBoxLaboratoire());
+        }
+        if(fenetreVisiteur->getComboBoxDepartement()!="-1")
+        {
+            modifierVisiteur.setValue("DEP_CODE", fenetreVisiteur->getComboBoxDepartement());
+        }
+
+        if(tableModelVisiteur->setRecord(ui->tableViewVisiteur->currentIndex().row(), modifierVisiteur))
+        {
+            //qDebug()<<modifierVisiteur;
             //qDebug()<<"0";
             tableModelVisiteur->submitAll();
             if(fenetreVisiteur->getRadioButonHierarchieModification()=="VISITEUR")
@@ -806,6 +816,10 @@ void MainWindow::on_pushButtonVisiteurEdit_clicked()
             }
             ui->statusBar->showMessage("Visiteur modifié avec succés", 3000);
             this->on_actionVisiteur_triggered();
+        }
+        else
+        {
+            qDebug()<<"RATEEEE";
         }
     }
 }
