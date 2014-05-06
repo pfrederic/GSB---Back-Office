@@ -16,7 +16,7 @@ int main(int argc, char *argv[])
     //Connexion à la base
     QSqlDatabase db;
     db = QSqlDatabase::addDatabase("QMYSQL");
-    db.setHostName("localhost");
+    db.setHostName("172.16.63.142");
     db.setDatabaseName("db_gestionCR");
     db.setUserName("technicien");
     db.setPassword("ini01");

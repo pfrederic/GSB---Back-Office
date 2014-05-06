@@ -67,16 +67,16 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ElLIp2Rfck,guid=cd78d5d8585a4f2d2652fab400000071</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ojd0qAtyXO,guid=ca1f7aa72e39e55f5f43c7fe00000082</value>
     <value type="QString">DESKTOP_SESSION=default</value>
     <value type="QString">DISPLAY=:0.0</value>
     <value type="QString">GDMSESSION=default</value>
     <value type="QString">GDM_KEYBOARD_LAYOUT=fr	latin9</value>
     <value type="QString">GDM_LANG=fr_FR.UTF-8</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-qWlU9d</value>
-    <value type="QString">GNOME_KEYRING_PID=3046</value>
-    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-spT2Wo/S.gpg-agent:3156:1</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-S06ZyT</value>
+    <value type="QString">GNOME_KEYRING_PID=2231</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-cpZbSf/S.gpg-agent:2324:1</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/pignolyfrederic/.gtkrc-1.2-gnome2</value>
     <value type="QString">HOME=/home/pignolyfrederic</value>
@@ -87,16 +87,16 @@
     <value type="QString">PATH=/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games</value>
     <value type="QString">PWD=/home/pignolyfrederic</value>
     <value type="QString">QTDIR=/usr/share/qt4</value>
-    <value type="QString">SESSION_MANAGER=local/F005Poste10:@/tmp/.ICE-unix/3064,unix/F005Poste10:/tmp/.ICE-unix/3064</value>
+    <value type="QString">SESSION_MANAGER=local/F005Poste10:@/tmp/.ICE-unix/2250,unix/F005Poste10:/tmp/.ICE-unix/2250</value>
     <value type="QString">SHELL=/bin/bash</value>
-    <value type="QString">SSH_AGENT_PID=3139</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-qWlU9d/ssh</value>
+    <value type="QString">SSH_AGENT_PID=2310</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-S06ZyT/ssh</value>
     <value type="QString">USER=pignolyfrederic</value>
     <value type="QString">USERNAME=pignolyfrederic</value>
     <value type="QString">WINDOWPATH=7</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm3/auth-for-pignolyfrederic-H8yDAf/database</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm3/auth-for-pignolyfrederic-GxKMeD/database</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/share/gdm/:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=e8a0e2480d4863480c4b70d200000007-1396353790.151562-1787216699</value>
+    <value type="QString">XDG_SESSION_COOKIE=e8a0e2480d4863480c4b70d200000007-1397203521.729653-275948430</value>
    </valuelist>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
     <value type="QString">/home/pignolyfrederic/PPE/GSB/GSB.pro</value>
@@ -115,16 +115,16 @@
   <valuemap type="QVariantMap">
    <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString">Debug</value>
    <valuelist key="abstractProcess.Environment" type="QVariantList">
-    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-ElLIp2Rfck,guid=cd78d5d8585a4f2d2652fab400000071</value>
+    <value type="QString">DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-Ojd0qAtyXO,guid=ca1f7aa72e39e55f5f43c7fe00000082</value>
     <value type="QString">DESKTOP_SESSION=default</value>
     <value type="QString">DISPLAY=:0.0</value>
     <value type="QString">GDMSESSION=default</value>
     <value type="QString">GDM_KEYBOARD_LAYOUT=fr	latin9</value>
     <value type="QString">GDM_LANG=fr_FR.UTF-8</value>
     <value type="QString">GNOME_DESKTOP_SESSION_ID=this-is-deprecated</value>
-    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-qWlU9d</value>
-    <value type="QString">GNOME_KEYRING_PID=3046</value>
-    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-spT2Wo/S.gpg-agent:3156:1</value>
+    <value type="QString">GNOME_KEYRING_CONTROL=/tmp/keyring-S06ZyT</value>
+    <value type="QString">GNOME_KEYRING_PID=2231</value>
+    <value type="QString">GPG_AGENT_INFO=/tmp/seahorse-cpZbSf/S.gpg-agent:2324:1</value>
     <value type="QString">GTK_MODULES=canberra-gtk-module</value>
     <value type="QString">GTK_RC_FILES=/etc/gtk/gtkrc:/home/pignolyfrederic/.gtkrc-1.2-gnome2</value>
     <value type="QString">HOME=/home/pignolyfrederic</value>
@@ -135,16 +135,16 @@
     <value type="QString">PATH=/usr/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games</value>
     <value type="QString">PWD=/home/pignolyfrederic</value>
     <value type="QString">QTDIR=/usr/share/qt4</value>
-    <value type="QString">SESSION_MANAGER=local/F005Poste10:@/tmp/.ICE-unix/3064,unix/F005Poste10:/tmp/.ICE-unix/3064</value>
+    <value type="QString">SESSION_MANAGER=local/F005Poste10:@/tmp/.ICE-unix/2250,unix/F005Poste10:/tmp/.ICE-unix/2250</value>
     <value type="QString">SHELL=/bin/bash</value>
-    <value type="QString">SSH_AGENT_PID=3139</value>
-    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-qWlU9d/ssh</value>
+    <value type="QString">SSH_AGENT_PID=2310</value>
+    <value type="QString">SSH_AUTH_SOCK=/tmp/keyring-S06ZyT/ssh</value>
     <value type="QString">USER=pignolyfrederic</value>
     <value type="QString">USERNAME=pignolyfrederic</value>
     <value type="QString">WINDOWPATH=7</value>
-    <value type="QString">XAUTHORITY=/var/run/gdm3/auth-for-pignolyfrederic-H8yDAf/database</value>
+    <value type="QString">XAUTHORITY=/var/run/gdm3/auth-for-pignolyfrederic-GxKMeD/database</value>
     <value type="QString">XDG_DATA_DIRS=/usr/share/gnome:/usr/share/gdm/:/usr/local/share/:/usr/share/</value>
-    <value type="QString">XDG_SESSION_COOKIE=e8a0e2480d4863480c4b70d200000007-1396353790.151562-1787216699</value>
+    <value type="QString">XDG_SESSION_COOKIE=e8a0e2480d4863480c4b70d200000007-1397203521.729653-275948430</value>
    </valuelist>
    <value key="abstractProcess.IgnoreReturnValue" type="bool">false</value>
    <valuelist key="abstractProcess.arguments" type="QVariantList">
